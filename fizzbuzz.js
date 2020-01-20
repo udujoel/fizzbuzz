@@ -1,7 +1,6 @@
-endCount = 100;
 count = 1;
 outstring = "";
-while (count <= endCount) {
+while (count <= 100) {
   if (count % 3 == 0 && count % 5 == 0) {
     outstring += " Fizz Buzz ";
     count++;
